@@ -1,0 +1,724 @@
+# depslib dependency file v1.0
+1573422086 source:f:\school\fall '19\csc222\module13 (final)\finalproject\explosionentity.cpp
+	"ExplosionEntity.h"
+
+1573425456 f:\school\fall '19\csc222\module13 (final)\finalproject\explosionentity.h
+	"Core\SceneNode.h"
+	"Core\Sprite.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439928514 f:\school\fall '19\csc222\module13 (final)\finalproject\core\graphics.h
+	<SDL/SDL.h>
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\rectangle.h
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1439928514 f:\school\fall '19\csc222\module13 (final)\finalproject\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1573429870 f:\school\fall '19\csc222\module13 (final)\finalproject\entitydef.h
+
+1573436570 f:\school\fall '19\csc222\module13 (final)\finalproject\factory.h
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/SceneNode.h"
+	"NPC.h"
+	"EntityDef.h"
+	"ExplosionEntity.h"
+	"Player.h"
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1573425534 f:\school\fall '19\csc222\module13 (final)\finalproject\npc.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+	"Factory.h"
+	"EntityDef.h"
+
+1573414952 f:\school\fall '19\csc222\module13 (final)\finalproject\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1573425888 f:\school\fall '19\csc222\module13 (final)\finalproject\player.h
+	"Core/Sprite.h"
+	"Core/SceneNode.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1573436850 source:f:\school\fall '19\csc222\module13 (final)\finalproject\factory.cpp
+	"Factory.h"
+
+1573416690 source:f:\school\fall '19\csc222\module13 (final)\finalproject\main.cpp
+	"SceneDemo.h"
+
+1573587722 f:\school\fall '19\csc222\module13 (final)\finalproject\scenedemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Scene.h"
+	"Core/Rectangle.h"
+	"Core/Map.h"
+	"Core/MapNode.h"
+	"Factory.h"
+	"Player.h"
+	"NPC.h"
+	"ExplosionEntity.h"
+
+1439928514 f:\school\fall '19\csc222\module13 (final)\finalproject\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439928514 f:\school\fall '19\csc222\module13 (final)\finalproject\core\input.h
+	<SDL/SDL.h>
+
+1439928514 f:\school\fall '19\csc222\module13 (final)\finalproject\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1573429912 source:f:\school\fall '19\csc222\module13 (final)\finalproject\npc.cpp
+	"NPC.h"
+
+1573425912 source:f:\school\fall '19\csc222\module13 (final)\finalproject\player.cpp
+	"Player.h"
+
+1573586806 source:f:\school\fall '19\csc222\module13 (final)\finalproject\scenedemo.cpp
+	"SceneDemo.h"
+
+1439928514 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\audio.cpp
+	"Audio.h"
+
+1439928514 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\game.cpp
+	"Game.h"
+
+1439928514 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\gamestate.cpp
+	"GameState.h"
+
+1439928514 f:\school\fall '19\csc222\module13 (final)\finalproject\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1439928514 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\graphics.cpp
+	"Graphics.h"
+
+1439928514 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\image.cpp
+	"Image.h"
+
+1439928514 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\input.cpp
+	"Input.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\map.cpp
+	"Map.h"
+
+1573431430 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\mapnode.cpp
+	"MapNode.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\music.cpp
+	"Music.h"
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\music.h
+	"Audio.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\outlinefont.cpp
+	"OutlineFont.h"
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\outlinefont.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\rasterfont.h
+	"Image.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\rectangle.cpp
+	"Rectangle.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\scene.cpp
+	"Scene.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\scenenode.cpp
+	"SceneNode.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\sound.cpp
+	"Sound.h"
+
+1439928516 f:\school\fall '19\csc222\module13 (final)\finalproject\core\sound.h
+	"Audio.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\sprite.cpp
+	"Sprite.h"
+
+1439928516 source:f:\school\fall '19\csc222\module13 (final)\finalproject\core\statemanager.cpp
+	"StateManager.h"
+
+1439928514 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\audio.cpp
+	"Audio.h"
+
+1439928514 e:\school\fall '19\csc222\module13 (final)\finalproject\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1574213322 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\game.cpp
+	"Game.h"
+
+1439928514 e:\school\fall '19\csc222\module13 (final)\finalproject\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1574216106 e:\school\fall '19\csc222\module13 (final)\finalproject\core\graphics.h
+	<SDL/SDL.h>
+
+1439928514 e:\school\fall '19\csc222\module13 (final)\finalproject\core\input.h
+	<SDL/SDL.h>
+
+1439928514 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\gamestate.cpp
+	"GameState.h"
+
+1439928514 e:\school\fall '19\csc222\module13 (final)\finalproject\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1574216106 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\graphics.cpp
+	"Graphics.h"
+
+1574390484 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\image.cpp
+	"Image.h"
+
+1439928514 e:\school\fall '19\csc222\module13 (final)\finalproject\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439928514 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\input.cpp
+	"Input.h"
+
+1574383306 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\map.cpp
+	"Map.h"
+
+1574220518 e:\school\fall '19\csc222\module13 (final)\finalproject\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1574546492 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\mapnode.cpp
+	"MapNode.h"
+
+1573414952 e:\school\fall '19\csc222\module13 (final)\finalproject\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\rectangle.h
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\music.cpp
+	"Music.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\music.h
+	"Audio.h"
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\outlinefont.cpp
+	"OutlineFont.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\outlinefont.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\rasterfont.h
+	"Image.h"
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\rectangle.cpp
+	"Rectangle.h"
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\scene.cpp
+	"Scene.h"
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\scenenode.cpp
+	"SceneNode.h"
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\sound.cpp
+	"Sound.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\sound.h
+	"Audio.h"
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\sprite.cpp
+	"Sprite.h"
+
+1439928516 e:\school\fall '19\csc222\module13 (final)\finalproject\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1439928516 source:e:\school\fall '19\csc222\module13 (final)\finalproject\core\statemanager.cpp
+	"StateManager.h"
+
+1573422086 source:e:\school\fall '19\csc222\module13 (final)\finalproject\explosionentity.cpp
+	"ExplosionEntity.h"
+
+1573425456 e:\school\fall '19\csc222\module13 (final)\finalproject\explosionentity.h
+	"Core\SceneNode.h"
+	"Core\Sprite.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1574537316 e:\school\fall '19\csc222\module13 (final)\finalproject\entitydef.h
+
+1574540274 e:\school\fall '19\csc222\module13 (final)\finalproject\factory.h
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/SceneNode.h"
+	"NPC.h"
+	"EntityDef.h"
+	"ExplosionEntity.h"
+	"Player.h"
+
+1573425534 e:\school\fall '19\csc222\module13 (final)\finalproject\npc.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+	"Factory.h"
+	"EntityDef.h"
+
+1573425888 e:\school\fall '19\csc222\module13 (final)\finalproject\player.h
+	"Core/Sprite.h"
+	"Core/SceneNode.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1574545648 source:e:\school\fall '19\csc222\module13 (final)\finalproject\factory.cpp
+	"Factory.h"
+
+1573416690 source:e:\school\fall '19\csc222\module13 (final)\finalproject\main.cpp
+	"SceneDemo.h"
+
+1574736380 e:\school\fall '19\csc222\module13 (final)\finalproject\scenedemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Scene.h"
+	"Core/Rectangle.h"
+	"Core/Map.h"
+	"Core/MapNode.h"
+	"Factory.h"
+	"Player.h"
+	"NPC.h"
+	"ExplosionEntity.h"
+	"Core/OutlineFont.h"
+
+1574543874 source:e:\school\fall '19\csc222\module13 (final)\finalproject\npc.cpp
+	"NPC.h"
+
+1573425912 source:e:\school\fall '19\csc222\module13 (final)\finalproject\player.cpp
+	"Player.h"
+
+1574733780 source:e:\school\fall '19\csc222\module13 (final)\finalproject\scenedemo.cpp
+	"SceneDemo.h"
+
+1439924914 source:e:\school\fall '19\csc222\final\final\core\audio.cpp
+	"Audio.h"
+
+1439924914 e:\school\fall '19\csc222\final\final\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1576116534 source:e:\school\fall '19\csc222\final\final\core\game.cpp
+	"Game.h"
+
+1439924914 e:\school\fall '19\csc222\final\final\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1574216106 e:\school\fall '19\csc222\final\final\core\graphics.h
+	<SDL/SDL.h>
+
+1439924914 e:\school\fall '19\csc222\final\final\core\input.h
+	<SDL/SDL.h>
+
+1439924914 source:e:\school\fall '19\csc222\final\final\core\gamestate.cpp
+	"GameState.h"
+
+1439924914 e:\school\fall '19\csc222\final\final\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1574216106 source:e:\school\fall '19\csc222\final\final\core\graphics.cpp
+	"Graphics.h"
+
+1576025562 source:e:\school\fall '19\csc222\final\final\core\image.cpp
+	"Image.h"
+
+1439924914 e:\school\fall '19\csc222\final\final\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439924914 source:e:\school\fall '19\csc222\final\final\core\input.cpp
+	"Input.h"
+
+1574383306 source:e:\school\fall '19\csc222\final\final\core\map.cpp
+	"Map.h"
+
+1574220518 e:\school\fall '19\csc222\final\final\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1574546492 source:e:\school\fall '19\csc222\final\final\core\mapnode.cpp
+	"MapNode.h"
+
+1573414952 e:\school\fall '19\csc222\final\final\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\rectangle.h
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\music.cpp
+	"Music.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\music.h
+	"Audio.h"
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\outlinefont.cpp
+	"OutlineFont.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\outlinefont.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\rasterfont.h
+	"Image.h"
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\rectangle.cpp
+	"Rectangle.h"
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\scene.cpp
+	"Scene.h"
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\scenenode.cpp
+	"SceneNode.h"
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\sound.cpp
+	"Sound.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\sound.h
+	"Audio.h"
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\sprite.cpp
+	"Sprite.h"
+
+1439924916 e:\school\fall '19\csc222\final\final\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1439924916 source:e:\school\fall '19\csc222\final\final\core\statemanager.cpp
+	"StateManager.h"
+
+1573422086 source:e:\school\fall '19\csc222\final\final\explosionentity.cpp
+	"ExplosionEntity.h"
+
+1573425456 e:\school\fall '19\csc222\final\final\explosionentity.h
+	"Core\SceneNode.h"
+	"Core\Sprite.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1576115826 e:\school\fall '19\csc222\final\final\entitydef.h
+
+1576115826 e:\school\fall '19\csc222\final\final\factory.h
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/SceneNode.h"
+	"NPC.h"
+	"EntityDef.h"
+	"ExplosionEntity.h"
+	"Player.h"
+
+1573425534 e:\school\fall '19\csc222\final\final\npc.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+	"Factory.h"
+	"EntityDef.h"
+
+1573425888 e:\school\fall '19\csc222\final\final\player.h
+	"Core/Sprite.h"
+	"Core/SceneNode.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1576115826 source:e:\school\fall '19\csc222\final\final\factory.cpp
+	"Factory.h"
+
+1573416690 source:e:\school\fall '19\csc222\final\final\main.cpp
+	"SceneDemo.h"
+
+1575952082 e:\school\fall '19\csc222\final\final\scenedemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Scene.h"
+	"Core/Rectangle.h"
+	"Core/Map.h"
+	"Core/MapNode.h"
+	"Factory.h"
+	"Player.h"
+	"NPC.h"
+	"ExplosionEntity.h"
+	"Core/OutlineFont.h"
+
+1575958692 source:e:\school\fall '19\csc222\final\final\npc.cpp
+	"NPC.h"
+
+1575951988 source:e:\school\fall '19\csc222\final\final\player.cpp
+	"Player.h"
+
+1576115826 source:e:\school\fall '19\csc222\final\final\scenedemo.cpp
+	"SceneDemo.h"
+
+1439924914 source:f:\school\fall '19\csc222\final\final\core\audio.cpp
+	"Audio.h"
+
+1439924914 f:\school\fall '19\csc222\final\final\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1575768440 source:f:\school\fall '19\csc222\final\final\core\game.cpp
+	"Game.h"
+
+1439924914 f:\school\fall '19\csc222\final\final\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1574216106 f:\school\fall '19\csc222\final\final\core\graphics.h
+	<SDL/SDL.h>
+
+1439924914 f:\school\fall '19\csc222\final\final\core\input.h
+	<SDL/SDL.h>
+
+1439924914 source:f:\school\fall '19\csc222\final\final\core\gamestate.cpp
+	"GameState.h"
+
+1439924914 f:\school\fall '19\csc222\final\final\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1574216106 source:f:\school\fall '19\csc222\final\final\core\graphics.cpp
+	"Graphics.h"
+
+1574390484 source:f:\school\fall '19\csc222\final\final\core\image.cpp
+	"Image.h"
+
+1439924914 f:\school\fall '19\csc222\final\final\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439924914 source:f:\school\fall '19\csc222\final\final\core\input.cpp
+	"Input.h"
+
+1574383306 source:f:\school\fall '19\csc222\final\final\core\map.cpp
+	"Map.h"
+
+1574220518 f:\school\fall '19\csc222\final\final\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1574546492 source:f:\school\fall '19\csc222\final\final\core\mapnode.cpp
+	"MapNode.h"
+
+1573414952 f:\school\fall '19\csc222\final\final\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\rectangle.h
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\music.cpp
+	"Music.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\music.h
+	"Audio.h"
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\outlinefont.cpp
+	"OutlineFont.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\outlinefont.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\rasterfont.h
+	"Image.h"
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\rectangle.cpp
+	"Rectangle.h"
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\scene.cpp
+	"Scene.h"
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\scenenode.cpp
+	"SceneNode.h"
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\sound.cpp
+	"Sound.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\sound.h
+	"Audio.h"
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\sprite.cpp
+	"Sprite.h"
+
+1439924916 f:\school\fall '19\csc222\final\final\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1439924916 source:f:\school\fall '19\csc222\final\final\core\statemanager.cpp
+	"StateManager.h"
+
+1573422086 source:f:\school\fall '19\csc222\final\final\explosionentity.cpp
+	"ExplosionEntity.h"
+
+1573425456 f:\school\fall '19\csc222\final\final\explosionentity.h
+	"Core\SceneNode.h"
+	"Core\Sprite.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1574537316 f:\school\fall '19\csc222\final\final\entitydef.h
+
+1574540274 f:\school\fall '19\csc222\final\final\factory.h
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/SceneNode.h"
+	"NPC.h"
+	"EntityDef.h"
+	"ExplosionEntity.h"
+	"Player.h"
+
+1573425534 f:\school\fall '19\csc222\final\final\npc.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+	"Factory.h"
+	"EntityDef.h"
+
+1573425888 f:\school\fall '19\csc222\final\final\player.h
+	"Core/Sprite.h"
+	"Core/SceneNode.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1575754920 source:f:\school\fall '19\csc222\final\final\factory.cpp
+	"Factory.h"
+
+1573416690 source:f:\school\fall '19\csc222\final\final\main.cpp
+	"SceneDemo.h"
+
+1575770426 f:\school\fall '19\csc222\final\final\scenedemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Scene.h"
+	"Core/Rectangle.h"
+	"Core/Map.h"
+	"Core/MapNode.h"
+	"Factory.h"
+	"Player.h"
+	"NPC.h"
+	"ExplosionEntity.h"
+	"Core/OutlineFont.h"
+
+1574543874 source:f:\school\fall '19\csc222\final\final\npc.cpp
+	"NPC.h"
+
+1573425912 source:f:\school\fall '19\csc222\final\final\player.cpp
+	"Player.h"
+
+1575768474 source:f:\school\fall '19\csc222\final\final\scenedemo.cpp
+	"SceneDemo.h"
+

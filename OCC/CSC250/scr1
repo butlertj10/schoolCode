@@ -1,0 +1,13 @@
+#!/bin/bash
+# This script will create a directory Demo
+# It will then add a new file to the directory 
+clear
+echo "You are in your home dirctory"
+cd ~
+pwd
+mkdir demo 2> /dev/null
+cd demo
+touch file1
+ls -l
+cd ~
+ls -la

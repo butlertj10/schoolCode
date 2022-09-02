@@ -1,0 +1,208 @@
+# depslib dependency file v1.0
+1328311429 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\audio.cpp
+	"Audio.h"
+
+1328311429 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\audio.h
+	<SDL\SDL.h>
+	<SDL\SDL_mixer.h>
+
+1345566501 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\game.cpp
+	"Game.h"
+
+1336866479 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\game.h
+	<SDL\SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1327712595 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\graphics.h
+	<SDL\SDL.h>
+
+1328153952 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\input.h
+	<SDL/SDL.h>
+
+1343523973 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\graphics.cpp
+	"Graphics.h"
+
+1336866858 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\image.cpp
+	"Image.h"
+
+1336866851 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\image.h
+	"Graphics.h"
+
+1328154040 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\input.cpp
+	"Input.h"
+
+1328314065 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\music.cpp
+	"Music.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\music.h
+	"Audio.h"
+
+1343526178 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\rasterfont.cpp
+	"RasterFont.h"
+
+1343526178 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\rasterfont.h
+	"Image.h"
+
+1328311470 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\sound.cpp
+	"Sound.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\sound.h
+	"Audio.h"
+
+1336873378 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\helicopter.cpp
+	"Helicopter.h"
+
+1336873378 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\helicopter.h
+	"SceneNode.h"
+	"Sprite.h"
+
+1336873315 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\scenenode.h
+	"Core/Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1336873266 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1330311016 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\rectangle.h
+
+1336873358 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\sprite.h
+	"Core\\Image.h"
+	"Rectangle.h"
+
+1336866851 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\\image.h
+	"Graphics.h"
+
+1327712595 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\core\\graphics.h
+	<SDL\SDL.h>
+
+1332212361 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\rectangle.cpp
+	"Rectangle.h"
+
+1336873266 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\scene.cpp
+	"Scene.h"
+
+1336873323 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\scenenode.cpp
+	"SceneNode.h"
+
+1336873386 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\sprite.cpp
+	"Sprite.h"
+
+1332027969 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\main.cpp
+	"SceneDemo.h"
+
+1345565999 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\scenedemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Scene.h"
+	"Rectangle.h"
+	"Helicopter.h"
+
+1345566060 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_2_spritescene\scenedemo.cpp
+	"SceneDemo.h"
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\audio.cpp
+	"Audio.h"
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\game.cpp
+	"Game.h"
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\graphics.h
+	<SDL/SDL.h>
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\input.h
+	<SDL/SDL.h>
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\graphics.cpp
+	"Graphics.h"
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\image.cpp
+	"Image.h"
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\input.cpp
+	"Input.h"
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\music.cpp
+	"Music.h"
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\music.h
+	"Audio.h"
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\rasterfont.h
+	"Image.h"
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\sound.cpp
+	"Sound.h"
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\core\sound.h
+	"Audio.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\helicopter.cpp
+	"Helicopter.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\helicopter.h
+	"SceneNode.h"
+	"Sprite.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\scenenode.h
+	"Core/Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\rectangle.h
+
+1439921307 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\sprite.h
+	"Core/Image.h"
+	"Rectangle.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\main.cpp
+	"SceneDemo.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\scenedemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Scene.h"
+	"Rectangle.h"
+	"Helicopter.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\rectangle.cpp
+	"Rectangle.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\scene.cpp
+	"Scene.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\scenedemo.cpp
+	"SceneDemo.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\scenenode.cpp
+	"SceneNode.h"
+
+1439921307 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_2_spritescene\sprite.cpp
+	"Sprite.h"
+

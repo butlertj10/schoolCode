@@ -1,0 +1,12 @@
+#!/bin/bash
+clear
+echo "This step will create a variable with the absolute path"
+DEMOPATH="/home/butlert/scripts/demo"
+echo "The following steps will create a file according to the input variable"
+touch ${DEMOPATH}/$1 2> /dev/null
+touch ${DEMOPATH}/$2 2> /dev/null
+touch ${DEMOPATH}/$3 2> /dev/null
+touch ${DEMOPATH}/$4 2> /dev/null
+echo "Here is a list of the new files created in the demo directory"
+cd ${DEMOPATH}
+ls -l

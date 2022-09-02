@@ -1,0 +1,151 @@
+# depslib dependency file v1.0
+1328307829 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\audio.cpp
+	"Audio.h"
+
+1328307829 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\audio.h
+	<SDL\SDL.h>
+	<SDL\SDL_mixer.h>
+
+1346457821 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\game.cpp
+	"Game.h"
+
+1336862879 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\game.h
+	<SDL\SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1346452445 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\graphics.h
+	<SDL\SDL.h>
+
+1328150352 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\input.h
+	<SDL/SDL.h>
+
+1341772637 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\gamestate.cpp
+	"GameState.h"
+
+1347409935 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1341772655 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1346457011 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\graphics.cpp
+	"Graphics.h"
+
+1343521881 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\image.cpp
+	"Image.h"
+
+1338330277 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1328150440 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\input.cpp
+	"Input.h"
+
+1351185777 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\map.cpp
+	"Map.h"
+
+1346452243 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1345684725 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\mapnode.cpp
+	"MapNode.h"
+
+1351185388 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1346452247 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1336869666 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1345605943 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\rectangle.h
+
+1328310465 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\music.cpp
+	"Music.h"
+
+1328310067 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\music.h
+	"Audio.h"
+
+1343522578 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\rasterfont.cpp
+	"RasterFont.h"
+
+1343522578 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\rasterfont.h
+	"Image.h"
+
+1345605966 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\rectangle.cpp
+	"Rectangle.h"
+
+1346722345 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\scene.cpp
+	"Scene.h"
+
+1336869723 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\scenenode.cpp
+	"SceneNode.h"
+
+1328307870 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\sound.cpp
+	"Sound.h"
+
+1328310067 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\sound.h
+	"Audio.h"
+
+1346720931 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\sprite.cpp
+	"Sprite.h"
+
+1346477252 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1347404769 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\core\statemanager.cpp
+	"StateManager.h"
+
+1351186501 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\factory.cpp
+	"Factory.h"
+
+1352783326 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\factorydemo.cpp
+	"FactoryDemo.h"
+
+1352783249 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\factorydemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"Core/Scene.h"
+	"Factory.h"
+
+1351179515 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\main.cpp
+	"FactoryDemo.h"
+
+1351186501 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\factory.h
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/SceneNode.h"
+	"Flier.h"
+	"Walker.h"
+
+1351186729 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\walker.cpp
+	"Walker.h"
+
+1351186470 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\walker.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+
+1351186470 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\flier.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+
+1351186526 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_1_factories\flier.cpp
+	"Flier.h"
+

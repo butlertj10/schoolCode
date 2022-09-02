@@ -1,0 +1,26 @@
+#!/bin/bash
+if  [ $EUID != 0 ]
+then
+echo "You are in root"
+else
+echo "This script is for root users only"
+#exit
+fi
+echo "Enter the file name you are trying to find"
+echo
+touch findfile
+read FILENAME
+find / $FILENAME > findfile 2> /dev/null
+clear
+if [ -s $FILENAME ]
+then
+echo "The file $FILENAME has data in it"
+echo "$FILENAME was found here: "
+readlink -f $FILENAME
+else
+echo "$FILENAME either does not have data or does not exist"
+echo "Try running this script again to find $FILENAME"
+fi
+SCRIPTDIR= readlink -f /rscripts
+cd $SCRIPTDIR
+

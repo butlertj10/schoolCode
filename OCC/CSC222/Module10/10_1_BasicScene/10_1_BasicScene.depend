@@ -1,0 +1,136 @@
+# depslib dependency file v1.0
+1328311429 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\audio.cpp
+	"Audio.h"
+
+1328311429 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\audio.h
+	<SDL\SDL.h>
+	<SDL\SDL_mixer.h>
+
+1336866479 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\game.cpp
+	"Game.h"
+
+1336866479 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\game.h
+	<SDL\SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1327712595 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\graphics.h
+	<SDL\SDL.h>
+
+1328153952 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\input.h
+	<SDL/SDL.h>
+
+1331429046 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\graphics.cpp
+	"Graphics.h"
+
+1336866858 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\image.cpp
+	"Image.h"
+
+1336866851 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\image.h
+	"Graphics.h"
+
+1328154040 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\input.cpp
+	"Input.h"
+
+1328314065 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\music.cpp
+	"Music.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\music.h
+	"Audio.h"
+
+1328311470 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\sound.cpp
+	"Sound.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_10\10_1_basicscene\core\sound.h
+	"Audio.h"
+
+1439921305 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\main.cpp
+	"SceneDemo.h"
+
+1439921305 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\scenedemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\graphics.h
+	<SDL/SDL.h>
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\input.h
+	<SDL/SDL.h>
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439921305 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439921305 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\scenenode.h
+	"Core/Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439921305 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\rectangle.h
+
+1439921305 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\map.cpp
+	"Map.h"
+
+1439921305 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\map.h
+	"Core/Graphics.h"
+	"Core/Image.h"
+	<fstream>
+	<vector>
+
+1439921305 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\rectangle.cpp
+	"Rectangle.h"
+
+1439921305 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\scene.cpp
+	"Scene.h"
+
+1439921305 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\scenedemo.cpp
+	"SceneDemo.h"
+
+1439921305 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\scenenode.cpp
+	"SceneNode.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\audio.cpp
+	"Audio.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\game.cpp
+	"Game.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\graphics.cpp
+	"Graphics.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\image.cpp
+	"Image.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\input.cpp
+	"Input.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\music.cpp
+	"Music.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\music.h
+	"Audio.h"
+
+1439921306 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\sound.cpp
+	"Sound.h"
+
+1439921306 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_10\10_1_basicscene\core\sound.h
+	"Audio.h"
+

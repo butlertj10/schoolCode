@@ -1,0 +1,44 @@
+Instructions:  5 points
+
+There must be instructions so that I know what the purpose of your game is and how to play your game.Number of Players:  15 points
+
+Option 1:  A one player game battling moving objects in some manner.
+	- Mario theme adventure game
+
+
+
+
+
+
+
+
+Features of the Game:  40 points
+
+You must incorporate some type of collision detection.  It can be in the form of weaponry, colliding with obstacles, hitting a target, or into other players.  (20 points)
+	- Collecting items
+
+Keep score in some fashion.  (10 points)
+	- Have collectables to collect while traveling through the bitmap
+
+Keep track of “lives” of one or more of the players.  (10 points)
+	- Start with three lives, every hit on a block is -1 life (or animated enemy)
+ 
+
+
+
+
+
+
+Graphic Techniques:  40 points
+
+Use sprite bitmaps for the player(s) and any moving obstacles.  (10 points)
+	-Spaceship
+
+Use a bitmap for the background.  (5 points)
+	-Grid background (DONE)
+
+Use masking techniques.  (5 points)
+	-tbh idk
+
+Use some type of animation.  (20 points)
+	- NPC animation of animations in space (maybe collectable object)

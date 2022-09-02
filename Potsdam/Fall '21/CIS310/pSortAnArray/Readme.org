@@ -1,0 +1,36 @@
+#+STARTUP: showall
+#+TITLE: <TEMPLATE for C++ PROJECT>
+#+SUBTITLE: CIS 310: Operating Systems
+#+AUTHOR: Brian C. Ladd
+#+DATE: Fall 2021
+
+* Introduction
+Project has the Makefile, AllModules.mk, module.mk, and executable.mk files to build a C++ program almost automatically.
+
+* User Interaction
+
+* Deliverables
+
+
+* Building the project executables
+This section assumes you are in the root directory of the project (the same directory with the ~Makefile~).
+
+** Build the executables
+#+BEGIN_SRC shell
+$ make
+#+END_SRC
+
+** To Clean --- delete all generated files
+The next build will have to compile /all/ of the files rather than just the ones that have changed. This is helpful if different, dependent packages get out of sync.
+
+#+BEGIN_SRC shell
+$ make clean
+#+END_SRC
+
+Primarily deletes (recursively) the ~build/~ folder.
+
+** To Test
+No tests included in the template.
+
+** To Run
+No executable built

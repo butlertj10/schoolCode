@@ -1,0 +1,4 @@
+2. Hypothesis 
+
+	Time is a major concern when developing a program which is why it always need to be looked at and addressed before development. While analyzing this problem of finding the kth largest value of array size n, time is on the table. When a searching through array of size n, the larger the value of n, the longer the runtime will be. The same concept should apply to a larger value of k as it will need to cycle through the array more times to determine the value. This will add runtime in either milliseconds or nanoseconds which does not seem like a large amount until this and other time-consuming tasks are done repeatedly.
+ 

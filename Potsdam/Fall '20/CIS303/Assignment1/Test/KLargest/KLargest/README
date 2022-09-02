@@ -1,0 +1,50 @@
+README
+
+KthLargest class and testing classes.
+Updated L. Grabowski 8/29/2020
+
+This directory contains the following source files:
+1. Skeleton for KthLargest.java
+2. TestKthLargest.java
+3. TimeTestKthLargest.java
+
+KthLargest.java
+---------------
+*Use: Write your implementation of the kthLargest algorithm in this file.
+* Note: There is some code in the class that is needed for the test classes. DO NOT MODIFY THE SPECIFIED LINES.
+* Compilation: Compile with the test files. Easiest way is simply:
+    javac *.java
+  or you may compile explicitly. See additional compilation notes, below.
+* Run: KthLargest.java must be run with one of the test files (see below).
+
+TestKthLargest.java
+-------------------
+* Use: To test the correctness of your kthLargest implementation.
+* Compilation: Compile with your KthLargest.java file. Easiest way is simply:
+    javac *.java
+  or compile specific files with:
+    javac TestKthLargest.java KthLargest.java
+* Run: java TestKthLargest <array size> <kth largest>
+        where <array_size> is the size of the data array, and
+        <kth largest> is the value for k, where k = 1 finds the
+        largest value.
+* Success: A successful run will compare the result of your KthLargest implementation with a sorted version of the data array. A correct implementation will produce the same data value as the kth largest from your implementation and from the sorted array. The data.txt file is created but is empty.
+
+TimeTestKthLargest.java
+-------------------
+* Compile with KthLargest.java and TestKthLargest.java:
+    javac *.java
+  or compile specific files with:
+    javac TimeTestKthLargest.java TestKthLargest.java KthLargest.java
+  NOTE: TimeTestKthLargest.java is dependent upon TestKthLargestjava.
+* Run:
+   java TimeTestKthLargest <array size>
+  where <array_size> is the size of the data array,
+  5000 <= array_size <= 100000. Note that for larger array sizes,
+  the program may take a few minutes to run.
+* Success: The data.txt file will be populated with data values for the value of k and the running time (in ms), for example:
+     k	time(ms)
+     1	    3
+     1000   18
+     2000   14
+  and so on.

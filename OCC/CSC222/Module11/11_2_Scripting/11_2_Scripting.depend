@@ -1,0 +1,314 @@
+# depslib dependency file v1.0
+1328311429 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\audio.cpp
+	"Audio.h"
+
+1328311429 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\audio.h
+	<SDL\SDL.h>
+	<SDL\SDL_mixer.h>
+
+1346461421 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\game.cpp
+	"Game.h"
+
+1336866479 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\game.h
+	<SDL\SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1346456045 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\graphics.h
+	<SDL\SDL.h>
+
+1328153952 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\input.h
+	<SDL/SDL.h>
+
+1341776237 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\gamestate.cpp
+	"GameState.h"
+
+1347413535 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1341776255 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1346460611 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\graphics.cpp
+	"Graphics.h"
+
+1343525481 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\image.cpp
+	"Image.h"
+
+1338333877 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1328154040 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\input.cpp
+	"Input.h"
+
+1351189377 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\map.cpp
+	"Map.h"
+
+1346455843 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1345688325 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\mapnode.cpp
+	"MapNode.h"
+
+1351188988 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1346455847 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1336873266 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1345609543 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\rectangle.h
+
+1328314065 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\music.cpp
+	"Music.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\music.h
+	"Audio.h"
+
+1343526178 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\rasterfont.cpp
+	"RasterFont.h"
+
+1343526178 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\rasterfont.h
+	"Image.h"
+
+1345609566 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\rectangle.cpp
+	"Rectangle.h"
+
+1346725945 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\scene.cpp
+	"Scene.h"
+
+1336873323 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\scenenode.cpp
+	"SceneNode.h"
+
+1328311470 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\sound.cpp
+	"Sound.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\sound.h
+	"Audio.h"
+
+1346724531 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\sprite.cpp
+	"Sprite.h"
+
+1346480852 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1347408369 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\core\statemanager.cpp
+	"StateManager.h"
+
+1351190101 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\factory.cpp
+	"Factory.h"
+
+1351190101 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\factory.h
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/SceneNode.h"
+	"Flier.h"
+	"Walker.h"
+
+1351190070 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\flier.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+
+1351190070 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\walker.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+
+1351188849 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\factorydemo.cpp
+	"FactoryDemo.h"
+
+1351187463 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\factorydemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"Core/Scene.h"
+	"Factory.h"
+
+1351190126 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\flier.cpp
+	"Flier.h"
+
+1351209942 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\main.cpp
+	"ScriptDemo.h"
+
+1351211520 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\walker.cpp
+	"Walker.h"
+
+1351211608 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\scriptdemo.cpp
+	"ScriptDemo.h"
+
+1351211565 c:\users\toshiba\desktop\book projects\book1\files\chapter_11\11_2_scripting\scriptdemo.h
+	<fstream>
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"Core/Scene.h"
+	"Factory.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\audio.cpp
+	"Audio.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\game.cpp
+	"Game.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\graphics.h
+	<SDL/SDL.h>
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\input.h
+	<SDL/SDL.h>
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\gamestate.cpp
+	"GameState.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\graphics.cpp
+	"Graphics.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\image.cpp
+	"Image.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\input.cpp
+	"Input.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\map.cpp
+	"Map.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\mapnode.cpp
+	"MapNode.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\rectangle.h
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\music.cpp
+	"Music.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\music.h
+	"Audio.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\rasterfont.h
+	"Image.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\rectangle.cpp
+	"Rectangle.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\scene.cpp
+	"Scene.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\scenenode.cpp
+	"SceneNode.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\sound.cpp
+	"Sound.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\sound.h
+	"Audio.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\sprite.cpp
+	"Sprite.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\core\statemanager.cpp
+	"StateManager.h"
+
+1439924914 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\factory.cpp
+	"Factory.h"
+
+1439924914 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\factory.h
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/SceneNode.h"
+	"Flier.h"
+	"Walker.h"
+
+1439924914 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\flier.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+
+1439924915 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\walker.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+
+1439924914 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\flier.cpp
+	"Flier.h"
+
+1439924914 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\main.cpp
+	"ScriptDemo.h"
+
+1439924914 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\scriptdemo.h
+	<fstream>
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"Core/Scene.h"
+	"Factory.h"
+
+1439924915 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\walker.cpp
+	"Walker.h"
+
+1439924914 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_11\11_2_scripting\scriptdemo.cpp
+	"ScriptDemo.h"
+

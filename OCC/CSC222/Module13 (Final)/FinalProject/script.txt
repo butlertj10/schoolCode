@@ -1,0 +1,12 @@
+flier 86 137
+soldier 250 450
+soldier 350 450
+soldier 420 450
+soldier 150 450
+soldier 345 450
+soldier 215 450
+soldier 350 450
+slug 430 450
+slug 520 450
+slug 134 450
+slug 175 450

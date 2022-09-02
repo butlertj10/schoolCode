@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1328311429 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\audio.cpp
+	"Audio.h"
+
+1328311429 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\audio.h
+	<SDL\SDL.h>
+	<SDL\SDL_mixer.h>
+
+1336866858 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\image.cpp
+	"Image.h"
+
+1336866851 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\image.h
+	"Graphics.h"
+
+1327712595 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\graphics.h
+	<SDL\SDL.h>
+
+1328154040 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\input.cpp
+	"Input.h"
+
+1328153952 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\input.h
+	<SDL/SDL.h>
+
+1328314065 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\music.cpp
+	"Music.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\music.h
+	"Audio.h"
+
+1328311470 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\sound.cpp
+	"Sound.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\sound.h
+	"Audio.h"
+
+1345190985 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\mapdemo.cpp
+	"MapDemo.h"
+
+1336866900 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\mapdemo.h
+	"Core/Game.h"
+	"Map.h"
+
+1336866479 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\game.h
+	<SDL\SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1336866899 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\map.h
+	"Core/Graphics.h"
+	"Core/Image.h"
+
+1331016332 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\main.cpp
+	"MapDemo.h"
+
+1344068335 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\game.cpp
+	"Game.h"
+
+1343523973 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\core\graphics.cpp
+	"Graphics.h"
+
+1345190873 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_1_simpletilemap\map.cpp
+	"Map.h"
+
+1509136620 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\audio.cpp
+	"Audio.h"
+
+1509136620 e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1509136620 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\game.cpp
+	"Game.h"
+
+1509136620 e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1509136620 e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\graphics.h
+	<SDL/SDL.h>
+
+1509136620 e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\input.h
+	<SDL/SDL.h>
+
+1572210086 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\graphics.cpp
+	"Graphics.h"
+
+1572207692 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\image.cpp
+	"Image.h"
+
+1509136620 e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1509136620 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\input.cpp
+	"Input.h"
+
+1509136620 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\music.cpp
+	"Music.h"
+
+1509136622 e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\music.h
+	"Audio.h"
+
+1509136620 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\main.cpp
+	"MapDemo.h"
+
+1509136620 e:\school\fall '19\csc222\module9\9_1_simpletilemap\mapdemo.h
+	"Core/Game.h"
+	"Map.h"
+
+1509136620 e:\school\fall '19\csc222\module9\9_1_simpletilemap\map.h
+	"Core/Graphics.h"
+	"Core/Image.h"
+
+1509136620 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\mapdemo.cpp
+	"MapDemo.h"
+
+1509136622 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\sound.cpp
+	"Sound.h"
+
+1509136622 e:\school\fall '19\csc222\module9\9_1_simpletilemap\core\sound.h
+	"Audio.h"
+
+1572207612 source:e:\school\fall '19\csc222\module9\9_1_simpletilemap\map.cpp
+	"Map.h"
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+cd ~
+echo "Create fnd_output file"
+cd scripts
+touch fnd_output
+echo "Send all files containing file to fnd_output and errors sent to a null file"
+find /HOME -name file? > ~/scripts/fnd_output 2> /dev/null
+echo "Display list of file fnd_output"
+ls -l fnd_output

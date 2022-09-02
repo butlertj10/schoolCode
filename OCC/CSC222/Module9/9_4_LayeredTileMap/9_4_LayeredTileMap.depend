@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1328311429 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\audio.cpp
+	"Audio.h"
+
+1328311429 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\audio.h
+	<SDL\SDL.h>
+	<SDL\SDL_mixer.h>
+
+1336866858 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\image.cpp
+	"Image.h"
+
+1336866851 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\image.h
+	"Graphics.h"
+
+1327712595 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\graphics.h
+	<SDL\SDL.h>
+
+1328154040 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\input.cpp
+	"Input.h"
+
+1328153952 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\input.h
+	<SDL/SDL.h>
+
+1328314065 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\music.cpp
+	"Music.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\music.h
+	"Audio.h"
+
+1328311470 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\sound.cpp
+	"Sound.h"
+
+1328313667 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\sound.h
+	"Audio.h"
+
+1336872386 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\mapdemo.cpp
+	"MapDemo.h"
+
+1336872405 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\mapdemo.h
+	"Core/Game.h"
+	"Map.h"
+
+1336866479 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\core\game.h
+	<SDL\SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1345504933 c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\map.h
+	"Core/Graphics.h"
+	"Core/Image.h"
+	<fstream>
+	<vector>
+
+1331016332 source:c:\users\toshiba\desktop\book projects\book1\files\chapter_9\9_4_layeredtilemap\main.cpp
+	"MapDemo.h"
+
+1439921303 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\audio.cpp
+	"Audio.h"
+
+1439921303 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1439921303 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\game.cpp
+	"Game.h"
+
+1439921303 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439921303 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\graphics.h
+	<SDL/SDL.h>
+
+1439921303 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\input.h
+	<SDL/SDL.h>
+
+1439921303 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\graphics.cpp
+	"Graphics.h"
+
+1439921303 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\image.cpp
+	"Image.h"
+
+1439921303 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439921303 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\input.cpp
+	"Input.h"
+
+1439921303 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\music.cpp
+	"Music.h"
+
+1439921303 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\music.h
+	"Audio.h"
+
+1439921303 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\sound.cpp
+	"Sound.h"
+
+1439921303 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\core\sound.h
+	"Audio.h"
+
+1439921302 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\main.cpp
+	"MapDemo.h"
+
+1439921302 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\mapdemo.h
+	"Core/Game.h"
+	"Map.h"
+
+1439921302 e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\map.h
+	"Core/Graphics.h"
+	"Core/Image.h"
+	<fstream>
+	<vector>
+
+1439921302 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\map.cpp
+	"Map.h"
+
+1439921302 source:e:\documents and settings\mccarthp\csc 222\bamgp\bamgp\source\chapter_09\9_4_layeredtilemap\mapdemo.cpp
+	"MapDemo.h"
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\audio.cpp
+	"Audio.h"
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\game.cpp
+	"Game.h"
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\graphics.h
+	<SDL/SDL.h>
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\input.h
+	<SDL/SDL.h>
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\graphics.cpp
+	"Graphics.h"
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\image.cpp
+	"Image.h"
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\input.cpp
+	"Input.h"
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\music.cpp
+	"Music.h"
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\music.h
+	"Audio.h"
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\sound.cpp
+	"Sound.h"
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\core\sound.h
+	"Audio.h"
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\main.cpp
+	"MapDemo.h"
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\mapdemo.h
+	"Core/Game.h"
+	"Map.h"
+
+1439924904 e:\school\fall '19\csc222\module9\9_4_layeredtilemap\map.h
+	"Core/Graphics.h"
+	"Core/Image.h"
+	<fstream>
+	<vector>
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\map.cpp
+	"Map.h"
+
+1439924904 source:e:\school\fall '19\csc222\module9\9_4_layeredtilemap\mapdemo.cpp
+	"MapDemo.h"
+

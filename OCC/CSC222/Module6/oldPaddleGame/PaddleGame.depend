@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1569956964 source:f:\school\fall 19'\csc222\module6\paddlegame\main.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+
+1569956964 source:e:\school\fall '19\csc222\module6\oldpaddlegame\main.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+

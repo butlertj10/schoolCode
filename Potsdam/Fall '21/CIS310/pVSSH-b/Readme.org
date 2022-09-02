@@ -1,0 +1,130 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+#+TITLE: Program: A Very Simple Shell - Phase b
+#+SUBTITLE: CIS 310: Operating Systems
+#+AUTHOR: Brian C. Ladd
+#+DATE: Fall 2021
+
+* Overview
+Extend vSSH-a, the string processing program, to a shell that can find an executable command, fork the shell process, and execute the command. The new shell will also support input/output redirection (without worrying about the nuances of redirecting stderr).
+
+* Learning Outcomes
+- ~git tag~ to set versions in a git repository.
+- Programatic program/process handling
+  - ~fork~
+  - ~wait~
+  - ~exec~
+- File handle duplication for I/O redirection
+
+* Shell Programs - Redux
+What does a shell program do?
+
+- Tracks the current working directory (cwd)
+  - Necessary for relative paths to work correctly
+- While not at EOF of input
+  - Prompt the user (perhaps indicating the cwd)
+  - Read a *line* of user input
+    - Many permit quoting and escaping special characters such as space or EOLN (line continuation); ours will NOT.
+    - Break line into "words" (blank-separated sequences of non-blank characters).
+    - Interpret the first word in a line as a command.
+  - If the command is internal to the shell (~cd~, ~pwd~), execute the code for it.
+  - If the command is found in the file system, perhaps in the search *path*
+    - ~fork~ the shell
+      - Parent shell ~wait~ for child to finish (unless background execution is requested).
+      - Child shell ~exec~ the command with the commandline parameters specified on the line.
+  - Else (command not found) Display error
+
+This can, very generally, be divided into two parts: /parse/ and /execute/. This phase of the program takes Phase a as given and extends it with directory tracking and process handling.
+
+* Very Simple SHell: VSSH-b
+** Getting Started
+In the ~pVSSH-a~ folder, use ~git~ to tag the first phase of code with the name ~vssh-a~:
+
+#+BEGIN_SRC bash
+$ git tag vssh-a
+#+END_SRC
+
+This marks the current state in the ~git~ database with the given tag. You can, at any time in the future, return to this state by checking it out:
+
+#+BEGIN_SRC bash
+$ git checkout vssh-a
+#+END_SRC
+
+*** Why tag releases?
+When you release code, outside of college, you are likely to continue developing it.
+
+That is, while you released v1.0, you will be developing v1.1.
+
+What happens when you get a bug report on v1.0? Especially if you have made feature changes that interfere with reproducing it so that you can fix it?
+
+The release tag means that you can checkout the release with the bug and test the reproduction steps. Hopefully you can then fix it, putting the fix in the codebase with a v1.0.1 tag and rebase development for 1.1 on the fixed code.
+
+*** Pushing tags
+From the commandline, append ~--tags~ to your push command so that the tags are replicated to the remote repository.
+
+** The Parser - As Per VSSH-a w/ ~cwd~ in the Prompt
+Two steps:
+- Prompt and read a full line into a string
+- Take the string apart into words
+
+*** Prompt and Read
+Prompt the user with a prompt that includes the current working directory path in the prompt. Continue to prompt until reading a line fails (error or, more likely, EOF).
+
+*** Parse the Line
+Take the line apart into separate words (string streams are your friends here). The first word is the /command/; words at the end of the list beginning with '>' or '<' are /redirection directives/ (there can be zero or one output redirection and zerop or one input redirection; there can be no non-redirection parameters between them if both redirections are present; there is no required order if both redirection directives are present).
+
+** Process the Command
+*** Built-in Commands
+- ~cd~ <directory> :: change directory to the named directory. If <directory> is empty, change to the user's home directory.
+- ~exit~ :: quit ~vssh~
+- ~pwd~ :: print absolute path of the working directory
+
+If the command is one of the built in commands (listed above), then ~vssh~ should execute it with the given parameters. If it is not, then the path is searched as given below.
+
+*** The Executable Search Path
+Any command not in the list of built-ins is assumed to name an executable. If the command name contains any '/' characters, search for that exact file (relative to the cwd if the slash is not the first character in the command name; in the file system otherwise).
+
+If the command name has no slash, then the search path for your executable has four locations:
+
+  .
+  /usr/local/bin
+  /usr/bin
+  /bin
+
+You will search for an executable with the name of the command in those directories in that order, stopping at the first you find.
+
+*** No Such File or Command
+If the command is not a built-in command or the name of an executable program, your shell should report an appropriate error and return to the top of the prompt loop.
+
+** Run the Executable
+The command names an executable program. A new process must be created to run it and then it must be executed.
+
+*** ~fork~
+Use ~fork~ to clone the shell process into a child process. Then
+- parent :: The parent process remains the shell. That is, it uses ~wait~ to be taken off the /ready queue/ until one of its children terminates. When the correct child terminates, the parent resumes running.
+- child :: The child process must handle I/O redirection and then call a function in the ~exec~ family to load the executable for the command.
+  - Redirection - Limited to only redirecting ~stdin~ and/or ~stdout~.
+
+    A redirection directive beginning with '<' has the name of an input file after the symbol. It should be opened for input and swapped into standard input (print an error and do not execute the command if file cannot be opened).
+
+    A redirection directive beginning with '>' has the name of an output file after the symbol. The file should be opened for output and truncated. Error message and no execution if open fails.
+
+    A redirection directive beginning with ">>" has the name of an output file after the two symbols. The file should be opened for output and appending. Error message and no execution if open fails.
+
+*** ~exec~
+Set up a call to ~exec~ with ~const char *~ pointers for the executable file and all of the parameters.
+
+* Shell Features VSSH-b Does *Not* Need to Implement
+- Background execution (the '&' character at the end of the command line or the "bg" command after suspending a child)
+- Dynamically set search path.
+- Environment variables.
+- Definition of aliases or functions.
+- Sourcing of shell scripts.
+
+* C++ Standard Library:
+- =std::filesystem= has features for checking the existence of a file, directory, or device.
+- =std::stat= is a function that gives detailed status information about a file path.
+  - This includes whether or not it is marked "executable" and user access rights
+
+* Deliverables
+Standard C++ program directory with properly commented code and a README. Explain how you tested and what output I should expect.

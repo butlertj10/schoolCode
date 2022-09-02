@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script is
+clear
+echo "What is the name of the Directory"
+read DIRNAME
+mkdir -p $DIRNAME
+mkdir subordinate 2> /dev/null
+ls -l
